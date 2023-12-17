@@ -1,0 +1,78 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 89px;
+    margin-left: 74px;
+    margin-right: 74px;
+}
+.container{
+    width: 85%;
+    height: 80%;
+    margin: 0px auto;
+}
+.main__title{
+    font-family: 'Intro Demo', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+}
+.section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 70% 30%;
+}
+.card{
+    width: 365px;
+}
+.card__title{
+    font-family: 'Intro Demo', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+.card__sub-title{
+    font-family:'Roboto Slab', serif, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+.conteiner-card{
+    margin-left: 20px;
+}
+.roz{
+    background-color: #EC615B;
+}
+.roz .conteiner-card__title{
+    color: #fff;
+    margin-bottom: 7px; 
+    font-family: 'Intro Demo', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.conteiner-card__button{
+    margin-top: 20px;
+}
+.conteiner-card__input{
+    width: 323px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.navigation{
+    margin-top: 100px;
+    margin-bottom: 80px;
+    width: 40%;
+}
+.navigation-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    list-style-type: none;
+    padding: 0;
+}
+.navigation-list__item{
+    margin-right: 32px;
+    font-family:'Roboto Slab', serif, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+.navigation-list__link{
+    text-decoration: none;
+}
